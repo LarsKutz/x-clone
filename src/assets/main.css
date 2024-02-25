@@ -1,0 +1,14 @@
+@import './base.css';
+
+#app {
+  display: grid;
+  grid-template-columns: 275px 600px 350px;
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+  }
+}
